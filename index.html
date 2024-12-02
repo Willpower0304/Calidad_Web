@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conceptos de Calidad de Software</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url(assets/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+      }
+      nav a {
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+        margin: 0 27px;
+        font-size: 1.1em;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      main {
+        flex: 1;
+        padding: 50px 150px;
+        margin: 0 200px;
+        max-width: 1200px;
+        background-color: rgb(245, 245, 245);
+      }
+      h1 {
+        color: #ffffff;
+      }
+      h2 {
+        color: #303030;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #757575;
+        text-align: justify;
+      }
+      ul {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #757575;
+        text-align: justify;
+      }
+      footer {
+        background-color: #272727;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+      }
+      footer p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Concepto de Calidad de Software</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+      <a href="#que-es-calidad">Calidad de Software</a>
+      <a href="#importancia">Importancia </a>
+      <a href="#atributos">Atributos Clave </a>
+      <a href="#iso-25010">Modelo ISO/IEC 25010</a>
+    </nav>
+
+    <main>
+      <section id="que-es-calidad">
+        <h2>¿Qué es la Calidad de Software?</h2>
+        <p>
+          La calidad de software se refiere al grado en que un software cumple
+          con los requisitos especificados y satisface las expectativas de los
+          usuarios, manteniendo la fiabilidad y eficiencia a lo largo del
+          tiempo. Un software de alta calidad no solo debe funcionar de acuerdo
+          con las especificaciones, sino también ofrecer una experiencia
+          positiva al usuario final.
+        </p>
+        <p>
+          En la calidad de software se incluyen tanto los aspectos funcionales
+          (qué hace el software) como los no funcionales (cómo lo hace). Es
+          decir, no solo se evalúa si el software cumple con los requerimientos,
+          sino también su desempeño, seguridad, facilidad de uso y
+          mantenimiento.
+        </p>
+      </section>
+      <br />
+      <section id="importancia">
+        <h2>Importancia de la Calidad de Software</h2>
+        <p>
+          La calidad de software es fundamental porque asegura que el producto
+          sea fiable, eficiente y capaz de satisfacer las necesidades del
+          usuario final. Un software defectuoso puede resultar en fallos,
+          pérdida de datos, afectación a la reputación de la empresa, y altos
+          costos de mantenimiento. En cambio, un software de alta calidad reduce
+          riesgos, mejora la satisfacción del cliente y promueve la
+          competitividad.
+        </p>
+      </section>
+      <br />
+      <section id="atributos">
+        <h2>Atributos Clave de la Calidad de Software</h2>
+        <p>
+          La calidad de software se evalúa a través de diversos atributos,
+          definidos por el estándar ISO/IEC 25010, que abordan tanto los
+          aspectos funcionales como los no funcionales del software. Los
+          principales atributos son:
+        </p>
+        <ul>
+          <li>
+            <strong>Funcionalidad:</strong> El software debe cumplir con los
+            requisitos y realizar las funciones para las que fue diseñado. Esto
+            incluye la precisión, la adecuación y la interoperabilidad del
+            sistema.
+          </li>
+          <li>
+            <strong>Rendimiento:</strong> Se refiere a la capacidad del software
+            para operar de manera eficiente, especialmente en términos de tiempo
+            de respuesta, uso de recursos y escalabilidad.
+          </li>
+          <li>
+            <strong>Fiabilidad:</strong> El software debe ser capaz de operar
+            sin fallos durante un período de tiempo determinado, incluso bajo
+            condiciones impredecibles.
+          </li>
+          <li>
+            <strong>Usabilidad:</strong> El software debe ser fácil de usar e
+            intuitivo para los usuarios finales, mejorando la experiencia
+            general del usuario.
+          </li>
+          <li>
+            <strong>Eficiencia:</strong> Un software eficiente usa los recursos
+            (como memoria y procesador) de manera óptima, sin afectar el
+            rendimiento.
+          </li>
+          <li>
+            <strong>Mantenibilidad:</strong> La facilidad con la que el software
+            puede ser modificado o corregido para adaptarse a nuevos requisitos
+            o solucionar problemas. Esto incluye la facilidad de mantenimiento,
+            la adaptabilidad y la capacidad de actualización.
+          </li>
+          <li>
+            <strong>Portabilidad:</strong> El software debe poder ejecutarse en
+            diferentes plataformas o entornos, como sistemas operativos
+            distintos o dispositivos variados, con el mínimo esfuerzo.
+          </li>
+        </ul>
+      </section>
+      <br />
+      <section id="iso-25010">
+        <h2>El Modelo ISO/IEC 25010</h2>
+        <p>
+          El estándar ISO/IEC 25010 define un modelo de calidad de software que
+          abarca ocho características principales, como la funcionalidad,
+          fiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad,
+          entre otras. Este modelo proporciona un marco estructurado para
+          evaluar y garantizar la calidad de los productos de software.
+        </p>
+        <p>
+          Además de estos atributos, el modelo considera aspectos como la
+          <strong>seguridad</strong> y la <strong>compatibilidad</strong>, que
+          son esenciales en el desarrollo de software en entornos modernos y con
+          requisitos dinámicos.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 Concepto de Calidad de Software. Todos los derechos
+        reservados.
+      </p>
+    </footer>
+  </body>
+</html>
